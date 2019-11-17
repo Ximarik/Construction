@@ -79,7 +79,7 @@ ul {
 hr.new1 {
   border: 2px solid #2ac5f4;
   width: 100px;
-  margin:auto;
+  margin: auto;
   margin-bottom: 20px;
 }
 
@@ -87,29 +87,27 @@ hr.new1 {
   font-size: 20px;
   text-align: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .p {
-  text-align: center;
-  border: 1px solid transparent;
-  width: 33%;
-  height: 250px;
-  padding-top: 100px;
-  margin-left: 50px;
-  margin-right: 20px;
+  width: 30%;
+  height: 300%;
+  display: flex;
 }
-.float {
-  float: left;
-  text-align: center;
-  padding-top: 50px;
-}
+
 .container2 {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 .container3 {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-.flex-wrap {
-  flex-wrap: wrap;
+.text{
+  width:70%;
 }
 /*float left picture with text*/
 .b-color {
